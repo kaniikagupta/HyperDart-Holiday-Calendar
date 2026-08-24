@@ -1,0 +1,43 @@
+[
+  {
+    "component": "holidaycal",
+    "componentPrimaryName": "Holiday Calendar",
+    "templateID": 804401,
+    "entities": [
+      {
+        "word": "holiday",
+        "wgID": 104401,
+        "wgName": "HOLIDAY",
+        "templateID": 804401,
+        "entityInfo": null,
+        "componentName": "holidaycal",
+        "entityType": "HOLIDAY",
+        "sourceID": "word",
+        "description": "Public holiday",
+        "priority": 5,
+        "isEnabled": 1,
+        "keywordRequired": 0,
+        "primaryText": "Holiday",
+        "relevanceScore": 100,
+        "sourceValue": 0,
+        "index": 0,
+        "primaryID": "word"
+      }
+    ],
+    "query": "public holidays",
+    "componentEnabled": true,
+    "keyword": [
+      "holiday",
+      "holidays",
+      "public holiday",
+      "public holidays",
+      "bank holiday",
+      "bank holidays"
+    ],
+    "disambiguationType": 1,
+    "time": "2026-08-24T09:00:00.000Z",
+    "quickView": 3,
+    "queryRegex": ".*(holiday|holidays|public holiday|public holidays|bank holiday|bank holidays).*",
+    "componentType": "internal"
+  }
+]
